@@ -1,0 +1,17 @@
+package com.comso.backend_spring.repository;
+
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import org.springframework.stereotype.Repository;
+
+import com.comso.backend_spring.entity.CorporationListViewEntity;
+
+
+@Repository
+public interface CorporationListViewRepository extends JpaRepository<CorporationListViewEntity, Integer> {
+
+    
+    
+    
+}
